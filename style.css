@@ -1,0 +1,36 @@
+.row_1{
+    background: url(cards/Cell_1.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row_2{
+    background: url(cards/Cell_2.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row_3{
+    background: url(cards/Cell_3.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row_4{
+    background: url(cards/Cell_4.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row_5{
+    background: url(cards/Cell_5.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.row_6{
+    background: url(cards/Cell_6.png); 
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
