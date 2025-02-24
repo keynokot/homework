@@ -1,10 +1,4 @@
 .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    height: 200vh;
     /* Делаем страницу высокой для прокрутки */
     background-image: url('./images/Линяга.png');
     /* Замените на путь к вашему изображению */
@@ -17,16 +11,21 @@
 }
 
 .site {
-    height: 1080px;
-    width: 1900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 3080px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .heading {
     background-color: rgb(35, 38, 48);
-    width: auto;
+    width: 100%;
     height: 70px;
     display: flex;
-
     align-items: center;
     gap: 20px;
 }
@@ -55,37 +54,25 @@
     flex-direction: column;
     width: 100%;
     height: 780px;
-}
-
-.back {
-    display: flex;
-    flex-direction: column;
     background-image: url("./images/Fon_menu.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-
 }
 
-.h1 {
+.h1_1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 500%;
     margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 56%;
+    margin-left: 50px;
 }
 
 .gradient {
     display: flex;
-    flex-direction: column;
-    background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7147233893557423) 23%, rgba(0, 0, 0, 0.8631827731092436) 44%, rgba(0, 0, 0, 1) 100%);
-    margin-top: 10%;
-    height: 20%;
+    margin-top: -300px;
+    height: 300px;
+    width: 100%;
 }
-
-
 
 .examplebtn {
     margin-top: 1%;
@@ -107,7 +94,11 @@
 }
 
 .second_screen {
-    
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: au;
 }
 
 .table {
@@ -115,14 +106,21 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
+    margin: auto;
+    width: 80%;
 }
 
 .row_first {
     display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 0%;
 }
 
 .row_second {
     display: flex;
+    justify-content: center;
+    margin-top: -5px;
 }
 
 .row_1 {
@@ -132,6 +130,8 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
+    
 
 }
 
@@ -146,6 +146,7 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
 
 }
 
@@ -160,6 +161,7 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
 
 }
 
@@ -174,6 +176,7 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
 
 }
 
@@ -188,6 +191,7 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
 }
 
 .column_5 {
@@ -201,6 +205,7 @@
     background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+    border: 20pt solid #000000;
 }
 
 .column_6 {
