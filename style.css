@@ -98,7 +98,7 @@
     flex-direction: column;
     background-color: black;
     width: 100%;
-    height: au;
+    height: auto;
 }
 
 .table {
@@ -106,21 +106,84 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
-    margin: auto;
-    width: 80%;
+    margin-bottom: 50px;
+
 }
 
 .row_first {
     display: flex;
     justify-content: center;
-    height: 300px;
-    margin-bottom: 0%;
 }
 
 .row_second {
     display: flex;
     justify-content: center;
-    margin-top: -5px;
+}
+
+.column_1 {
+    display: flex;
+    width: 250px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.empty {
+    width: 290px;
+    height: auto;
+}
+
+.column_1_text1 {
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.column_1_text2 {
+    color: #575757;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.column_1_text3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+.column_1_text4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.column_1_button {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000000 !important;
+    width: 120px;
+    height: 50px;
+    padding: auto;
+    border-radius: 0px;
+    border: 3px ridge #000000;
+    background: #ffffff;
+    margin-bottom: 0px;
+}
+
+.column_1_button:hover {
+    color: #000000 !important;
+    background: #00000013;
 }
 
 .row_1 {
@@ -128,30 +191,24 @@
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-    
-
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
 
-.column_1 {
-    width: 300px;
-}
 
 .row_2 {
     background: url(cards/Cell_2.png);
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-
-}
-
-.column_2 {
-    width: 300px;
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
 
 .row_3 {
@@ -159,14 +216,11 @@
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-
-}
-
-.column_3 {
-    width: 300px;
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
 
 .row_4 {
@@ -174,14 +228,11 @@
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-
-}
-
-.column_4 {
-    width: 300px;
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
 
 .row_5 {
@@ -189,13 +240,11 @@
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-}
-
-.column_5 {
-    width: 300px;
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
 
 .row_6 {
@@ -203,11 +252,9 @@
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 600px;
-    border: 20pt solid #000000;
-}
-
-.column_6 {
-    width: 300px;
+    width: 540px;
+    height: 360px;
+    margin: 10px;
+    padding: auto;
+    display: flex;
 }
